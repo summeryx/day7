@@ -1,0 +1,79 @@
+@import url("../css/reset.css");
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+
+header, .title {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  background: #000;
+  color: #fff;
+  position: relative; }
+  header a, .title a {
+    position: absolute;
+    left: 10px;
+    color: #fff; }
+
+.title {
+  background: #fff; }
+  .title a {
+    color: #718BF7;
+    font-size: .5rem; }
+  .title span {
+    color: #333; }
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+  section main {
+    position: relative;
+    padding: 0 20px;
+    flex: 1;
+    background: linear-gradient(-20deg, #B560EB, #6DADFC); }
+    section main h1 {
+      padding: 30px 0;
+      color: #fff;
+      font-size: .4rem;
+      text-align: center; }
+    section main > p {
+      color: #fff;
+      width: 80%;
+      line-height: 2;
+      margin-top: 20px; }
+    section main aside, section main span {
+      position: absolute;
+      right: 30px;
+      width: 10px;
+      bottom: 50px;
+      font-size: .4rem;
+      color: #332358; }
+    section main span {
+      right: 60px;
+      bottom: 30px; }
+
+.rwm img {
+  width: 30%; }
+
+.ad {
+  display: flex;
+  justify-content: space-around; }
+  .ad dl {
+    width: 23%;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2;
+    padding: 20px 0; }
+    .ad dl img {
+      width: 50%; }
+    .ad dl dd {
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
